@@ -1,11 +1,11 @@
 import React from 'react'
+import './about.css';
 
-const about = () => {
+export const About = () => {
   return (
-    <div>
-      
+    <div className='container'>
+      <h1>About</h1>
+      This is a sentence in the about section. This is a sentence in the about section.This is a sentence in the about section.This is a sentence in the about section.This is a sentence in the about section.This is a sentence in the about section.This is a sentence in the about section.This is a sentence in the about section.This is a sentence in the about section.This is a sentence in the about section.This is a sentence in the about section.This is a sentence in the about section.This is a sentence in the about section.This is a sentence in the about section.
     </div>
   )
 }
-
-export default about
